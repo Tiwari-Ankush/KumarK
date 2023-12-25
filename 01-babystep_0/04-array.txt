@@ -65,3 +65,22 @@ public class ArrayWithArithmeticOperations {
 
 
 ....
+
+
+print the elements from the array which are even
+""
+public class Main {
+    public static void main(String[] args) {
+        // Declaration and initialization of an array of integers
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        // Accessing and printing even array elements
+        System.out.println("Even Elements in the Array:");
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 == 0) {
+                System.out.println("Element at index " + i + ": " + numbers[i]);
+            }
+        }
+    }
+}
+""
