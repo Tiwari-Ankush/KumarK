@@ -21,3 +21,47 @@ for(int i=0; i<arr.length; i++){
 }
 
 
+ finall full example:
+>>
+
+public class ArrayWithArithmeticOperations {
+    public static void main(String[] args) {
+        // Declaration and initialization of an array of integers
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        // Accessing and printing array elements
+        System.out.println("Array Elements:");
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println("Element at index " + i + ": " + numbers[i]);
+        }
+
+        // Arithmetic operations on array elements
+        int sum = 0;
+        int product = 1;
+
+        for (int i = 0; i < numbers.length; i++) {
+            sum += numbers[i];     // Adding each element to the sum
+            product *= numbers[i]; // Multiplying each element to the product
+        }
+
+        // Displaying the results of arithmetic operations
+        System.out.println("Sum of array elements: " + sum);
+        System.out.println("Product of array elements: " + product);
+
+        // Performing arithmetic operations on individual array elements
+        int[] squaredNumbers = new int[numbers.length];
+
+        for (int i = 0; i < numbers.length; i++) {
+            squaredNumbers[i] = numbers[i] * numbers[i]; // Squaring each element
+        }
+
+        // Displaying the squared array elements
+        System.out.println("Squared array elements:");
+        for (int i = 0; i < squaredNumbers.length; i++) {
+            System.out.println("Element at index " + i + ": " + squaredNumbers[i]);
+        }
+    }
+}
+
+
+....
