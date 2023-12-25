@@ -1,0 +1,18 @@
+data types in java:
+Primitive Data Types: 
+byte, short, int, long, float, double, char, boolean
+
+Reference Data Types:
+ Object types (including user-defined classes), Array types, Interface types, Enumeration types
+
+ integer      int... to store a numeric value 
+ string       ankush
+ float        10.3
+ double       10.20
+ boolean      true/false
+ char         a/b/c/d/e/f 
+
+
+ variable in java:
+ stored the value
+ (data type variable_name = data_value)

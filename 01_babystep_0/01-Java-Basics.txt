@@ -1,0 +1,17 @@
+coding is a set of instructions , by that we can achieve the goals
+
+we need a programmming language for this ie binary language  ie 0 and 1
+
+programming language is a way to talk to the computer 
+
+hello world program: in java 
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+}
+
+
+java is a case sensitive language
+
