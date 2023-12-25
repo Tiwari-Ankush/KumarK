@@ -1,0 +1,23 @@
+what is array?
+>> array is the collection of similar type of data type of elements.
+
+>> elements are stored in contigios manner
+
+>>declaring aarray 
+int[] arr={}
+string [] arr= {}
+boolean [] bool ={}
+
+>>accessing rhe array ele 
+arr[i]
+or 
+
+by loops
+arr.length >>> givrs me the lenght of an array
+
+eg>> 
+for(int i=0; i<arr.length; i++){
+    System.out.println(arr[i]);
+}
+
+
