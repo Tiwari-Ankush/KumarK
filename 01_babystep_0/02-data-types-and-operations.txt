@@ -16,3 +16,8 @@ Reference Data Types:
  variable in java:
  stored the value
  (data type variable_name = data_value)
+
+
+ to performing operations like addition multiplication or division
+ first store the values in a containers and then perform the operations
+
