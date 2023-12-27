@@ -1,0 +1,44 @@
+The `nextLine()` and `hasNextLine()` methods are both part of the `Scanner` class in Java, but they serve different purposes:
+
+1. **`nextLine()` Method:**
+   - `nextLine()` is used to read the next complete line of input from the scanner.
+   - It advances the scanner past the current line and returns the input as a `String`.
+   - Example:
+     ```java
+     Scanner scanner = new Scanner(System.in);
+     String line = scanner.nextLine();
+     ```
+
+2. **`hasNextLine()` Method:**
+   - `hasNextLine()` is a boolean method that checks if there is another line of input available to be read.
+   - It does not consume the input; it only checks if there is more input.
+   - Example:
+     ```java
+     Scanner scanner = new Scanner(System.in);
+     if (scanner.hasNextLine()) {
+         // There is another line of input
+     }
+     ```
+
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        
+        
+        
+    Scanner sc = new Scanner(System.in);
+    int line_no=1;
+    for(line_no=1; sc.hasNextLine();line_no++){
+        String line = sc.nextLine();
+        
+        System.out.println(line_no+ " "+ line);
+        
+    }
+    sc.close();
+    }
+}
