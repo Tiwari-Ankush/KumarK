@@ -1,1 +1,99 @@
 
+<html>
+   <head>
+   </head>
+   <body>
+<div class="container">
+<form action="">
+<h1 class="main-heading">Payment Form</h1>
+<h2>Contact Information</h2>
+<p>required fields are followed by *</p>
+<p>Name: * <input type="text" name="name" required placeholder="Enter
+            your name"> </p>
+<fieldset>
+<legend>Gender*</legend>
+<p>
+Male <input type="radio" name="gender" id="male" required>
+                    Female <input type="radio" name="gender" id="female"
+                    required>
+</p>
+</fieldset>
+<p> Address: <textarea name="address" id="address" cols="45" rows="10"
+            placeholder="Enter your Full Address"></textarea></p>
+<p>Email: * <input type="email" id="email" required placeholder="Please
+            Enter your Email"></p>
+<p>Pincode: <input type="number" name="pincode" id="pincode" required
+            placeholder="Enter your pincode"></p>
+<h2>Payment Information</h2>
+<p>Card Type: *
+<select name="card_type" id="card_type" required>
+<option value="">--Select a Card Type--</option>
+<option value="Visa">Visa</option>
+<option value="rupay">Visa</option>
+<option value="mastercard">Visa</option>
+</select>
+</p>
+<p>Card Number* <input type="number" name="card_Number" id="card_Number"
+            required></p>
+<p>Expiration Date: * <input type="date" name="exp_date" id="exp_date"
+            required></p>
+<p>CVV* <input type="password" name="cvv" id="cvv" required></p>
+<input type="submit" value="Pay Now">
+</form>
+</div>
+   <body>
+</html>
+<script type="text/javascript">
+</script>
+<style type="text/css">
+*{
+box-sizing: border-box;
+}
+body{
+font-family: cursive;
+margin: 15px 30px;
+font-size: 15px;
+padding: 8px;
+}
+.container{
+background-color: rgba(163, 162, 162, 0.538);
+padding: 5px 20px 15px 20px;
+border: 1px solid lightgray;
+border-radius: 4px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+fieldset{
+background-color: #fff;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.main-heading{
+text-align: center;
+}
+input[type="submit"]{
+background-color: rgb(51, 218, 162);
+color: white;
+padding: 12px 20px;
+border-radius: 4px;
+cursor: pointer;
+width: 100%;
+}
+input[type="submit"]:hover{
+background-color: aquamarine;
+}
+</style>
+
+
+
+

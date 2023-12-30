@@ -1,1 +1,49 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation 2</title>
+
+    <style>
+    a{
+        animation:bouncing 2s ease 0s infinite alternate both;
+        background: darkblue;
+        border-radius: 50%;
+        display: inline-block;
+        color: white;
+        cursor: pointer;
+        font-size: 0.75rem;
+        font-weight: 300;
+        letter-spacing: 0.2rem;
+        padding: 1em 2em 1.1em;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+        vertical-align: top;
+        margin-top: 150px;
+        margin-left: 150px;
+
+    }
+
+    @keyframes bouncing {
+        0%{
+            bottom: 0;
+            box-shadow: 0 0 5px rgb(43, 43, 43);
+        }
+
+        100%{
+            bottom:50px;
+            box-shadow: 0 50px 50px rgb(23, 22, 22);
+        }
+       
+    }
+    </style>
+</head>
+<body>
+
+    <a >Loading</a>
+   
+</body>
+</html>
