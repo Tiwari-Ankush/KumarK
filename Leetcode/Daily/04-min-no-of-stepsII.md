@@ -112,3 +112,35 @@ Explanation:
 
 This code follows the given hints and correctly addresses the issue to calculate the minimum steps for making `s` and `t` anagrams.
 
+
+extra:
+
+Certainly! The part of the code you're asking about is responsible for subtracting the frequency of characters in string `t` from the previously calculated frequencies in the array `frequency`. Let's break it down:
+
+```java
+// Subtract the frequency of characters in string t
+for (char ch : t.toCharArray()) {
+    frequency[ch - 'a']--;
+}
+```
+
+Explanation:
+
+1. **Frequency Calculation:**
+   - Initially, we calculated the frequency of characters in string `s` and stored it in the `frequency` array.
+
+2. **Subtracting Frequencies of Characters in `t`:**
+   - Now, we need to consider the characters in string `t` and their frequencies.
+   - For each character `ch` in string `t`, we subtract one from the corresponding position in the `frequency` array.
+   - The expression `ch - 'a'` is used to map the character `ch` to its corresponding index in the `frequency` array. For example, if `ch` is 'a', then `ch - 'a'` equals 0, and if `ch` is 'b', then `ch - 'a'` equals 1, and so on.
+
+3. **Purpose:**
+   - The purpose of this subtraction is to effectively cancel out the common characters between `s` and `t`. By subtracting the frequencies of characters in `t`, we are left with the difference in frequencies between the two strings.
+
+4. **After This Operation:**
+   - After this subtraction loop, the `frequency` array will represent the difference in the frequency of each character between `s` and `t`. Positive values indicate excess characters in `s`, and negative values indicate excess characters in `t`.
+
+5. **Further Steps:**
+   - The subsequent part of the code iterates through the `frequency` array to calculate the absolute differences and sums them up. This total represents the minimum number of steps required to make `s` and `t` anagrams.
+
+In summary, this subtraction step ensures that we have the correct count of each character's frequency difference between the two strings, which is essential for calculating the minimum steps.
