@@ -63,4 +63,16 @@ public class Solution {
 
 
 explanation:
+The problem is asking to determine whether it's possible to divide the given array into pairs such that the sum of every pair is divisible by the given number `k`.
 
+Here's a step-by-step explanation:
+
+1. You are given an array of integers `nums` and a number `k`.
+2. You need to check if it's possible to divide the array into pairs such that the sum of every pair is divisible by `k`.
+3. If there exists a pair `(nums[i], nums[j])` such that `(nums[i] + nums[j]) % k == 0`, then it's possible.
+4. If all pairs have a sum that is divisible by `k`, return `true`.
+5. If there's at least one pair whose sum is not divisible by `k`, return `false`.
+
+The goal is to determine if there's a way to pair up the elements in the array such that the sum of each pair is divisible by `k`.
+
+Your task is to complete the function `canPair()` that takes the array `nums` and the integer `k` as input parameters and returns `true` if the array can be divided into pairs satisfying the condition, otherwise `false`.
