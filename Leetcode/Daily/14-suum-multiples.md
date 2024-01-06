@@ -31,7 +31,6 @@ Constraints:
 solln:
 ```
 class Solution {
-public:
     int sumOfMultiples(int n) {
         int sum = 0;
         for (int i = 0; i <= n;i++) {
