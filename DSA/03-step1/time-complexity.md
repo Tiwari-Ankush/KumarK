@@ -6,6 +6,18 @@ Rules:
 
 *Time complexity can be constant.**O(const)***
 
+**Formal Defination**:
+*T(n) is a directly proportional function.*
+*T(n) --> tells us the execution time of an algorithm*
+*T(n) provides an estimation that how the running time will increase with increase in size of n*
+_**O(logN)**--> running time increasaes logarithmically with the input size_
+_**O(N)** --> running time increases linearly with the input size_
+_**O(N^2)** --> running time increases quadratically with the input size_
+_**O(2^n)** --> running time increases exponentially with the input size_
+
+**O** --> _represents the worst case time complexity, we called it Big-oh_
+
+
 **questions?**
 1. why we ignore the constants and lowest order variables when time complexity is a polynomial?
 
