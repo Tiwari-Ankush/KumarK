@@ -89,3 +89,8 @@ class Result {
     }
 
 }```
+
+
+
+approach:
+The approach involves calculating the number of jumps needed for two kangaroos with different starting positions and jump distances to meet. It considers the case where the kangaroos have the same jump distance and checks if they meet at the same location after the calculated number of jumps. If so, it returns "YES"; otherwise, it returns "NO"
