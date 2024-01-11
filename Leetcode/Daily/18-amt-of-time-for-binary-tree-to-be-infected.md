@@ -48,12 +48,6 @@ A node with a value of start exists in the tree.
 
 
 
-
-
-
-
-
-
 soln:
 ```
 class Solution {
