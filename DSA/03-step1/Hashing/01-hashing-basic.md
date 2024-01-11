@@ -10,6 +10,7 @@ Hashing is a process of converting input data (or a message) into a fixed-length
 ### `HashSet`:
 `HashSet` is a collection in Java that does not allow duplicate elements. It uses hashing internally to achieve constant-time performance for basic operations such as add, remove, contains, and size.
 
+
 Example:
 ```java
 import java.util.HashSet;
