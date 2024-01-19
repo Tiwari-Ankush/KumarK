@@ -54,6 +54,7 @@ Constraints:
 1 ≤ K ≤ 102
 1 ≤ a[i] ≤ 102 
 
+
 soln:
 ```
 
