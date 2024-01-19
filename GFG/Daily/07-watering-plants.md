@@ -46,7 +46,7 @@ Constraints:
 1 ≤ n ≤ 105
 gallery[i] ≤ 50
 
-
+ 
 
 
 soln
