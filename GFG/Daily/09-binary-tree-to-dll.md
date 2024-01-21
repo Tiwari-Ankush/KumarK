@@ -79,5 +79,5 @@ class Solution
       bToDLL(root.right);
       return head;
     }
-}
+}  
 ```
