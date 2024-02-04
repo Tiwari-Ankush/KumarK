@@ -10,3 +10,23 @@
 - **Efficiency**: Hashing provides a faster alternative to linear search by reducing search time complexity.
 - **Collision**: Occurs when two different inputs produce the same hash code, requiring collision resolution strategies.
 - **Security**: Hash functions play a crucial role in password hashing and digital signatures in cybersecurity.
+
+
+## HashMap
+*A HashMap is a data structure in Java that implements the Map interface. It stores key-value pairs, allowing efficient retrieval, insertion, and deletion of elements. Each key must be unique, and it maps to a specific value. HashMap uses a hash table to provide constant-time average complexity for basic operations.*
+
+What is it mainly used for ? 
+**Answer** :-> used for {key - value} mainly to store the frequency of the elements. 
+_General Hashmap_ :- 
+B = [ 5 5 8 8 1 1 1 ] 
+```
+Map->
+     Elements                         Frequency
+{
+
+       5                    ->                   2
+       8                    ->                   2 
+       1                    ->                   3
+
+}
+```
