@@ -18,6 +18,7 @@
 What is it mainly used for ? 
 **Answer** :-> used for {key - value} mainly to store the frequency of the elements. 
 _General Hashmap_ :- 
+
 B = [ 5 5 8 8 1 1 1 ] 
 ```
 
