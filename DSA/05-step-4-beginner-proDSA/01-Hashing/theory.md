@@ -16,6 +16,7 @@
 *A HashMap is a data structure in Java that implements the Map interface. It stores key-value pairs, allowing efficient retrieval, insertion, and deletion of elements. Each key must be unique, and it maps to a specific value. HashMap uses a hash table to provide constant-time average complexity for basic operations.*
 
 What is it mainly used for ? 
+
 **Answer** :-> used for {key - value} mainly to store the frequency of the elements. 
 _General Hashmap_ :- 
 
