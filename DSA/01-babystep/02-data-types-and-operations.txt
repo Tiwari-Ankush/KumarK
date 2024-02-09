@@ -13,6 +13,7 @@ Reference Data Types:
  char         a/b/c/d/e/f 
 
 
+
  variable in java:
  stored the value
  (data type variable_name = data_value)
