@@ -1,12 +1,15 @@
 
+
 ```markdown
 # Java Collection Framework
 
 The Java Collection Framework is a set of classes and interfaces that provide commonly reusable data structures. It includes dynamic arrays, linked lists, maps, sets, queues, and various other collections.
 
+
 ## ArrayList
 
 `ArrayList` is a dynamic array implementation in Java. It is part of the `java.util` package and allows elements to be added or removed dynamically.
+
 
 ```java
 import java.util.ArrayList;
@@ -17,9 +20,11 @@ list.add("Python");
 list.add("C++");
 ```
 
+
 ## Iterator
 
 `Iterator` is an interface that provides a way to access elements of a collection one by one. It is used to iterate through collections like ArrayList.
+
 
 ```java
 Iterator<String> iterator = list.iterator();
