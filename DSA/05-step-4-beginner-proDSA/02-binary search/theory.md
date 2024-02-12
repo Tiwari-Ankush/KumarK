@@ -4,6 +4,27 @@ lower bound and upper boound:
 
 -> Upper Bound (x) = Returns index of the number which is just greater than x and as close as possible to x.
 
+
+intuative approach:
+_Lower Bound (First Occurrence):
+
+Initialize low and high pointers to the start and end of the array.
+While low is less than or equal to high:
+Calculate mid.
+If the element at mid is less than the target, update low to mid + 1.
+If the element at mid is greater than or equal to the target, update high to mid - 1.
+If the element at mid equals the target, store mid and update high to mid - 1.
+Return the stored index.
+Upper Bound (Last Occurrence):
+
+Initialize low and high pointers to the start and end of the array.
+While low is less than or equal to high:
+Calculate mid.
+If the element at mid is less than or equal to the target, update low to mid + 1.
+If the element at mid is greater than the target, update high to mid - 1.
+If the element at mid equals the target, store mid and update low to mid + 1.
+Return the stored index._
+
 java code
 ```
 public class Main {
