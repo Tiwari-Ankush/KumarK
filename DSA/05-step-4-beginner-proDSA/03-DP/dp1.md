@@ -30,3 +30,7 @@ Say, a[5]={4,5,3,2,1}…**(assume 1-based-indexing here)** So, dp[1]=4(pretty ea
 dp[2]=4+5=9………(2)
 dp[3]=4+5+3=12…..(3) and so on.
 
+So, for any index ‘i’ ,
+dp[i]=a[i]+dp[i-1],
+**Example:-**
+dp[3] = a[3] + dp[3–1] = a[3] + dp[2]= 3 + 9 =12 ….(which is same as equation…(3))
