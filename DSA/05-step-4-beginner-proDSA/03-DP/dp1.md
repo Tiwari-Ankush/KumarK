@@ -31,6 +31,7 @@ dp[2]=4+5=9………(2)
 dp[3]=4+5+3=12…..(3) and so on.
 
 So, for any index ‘i’ ,
-dp[i]=a[i]+dp[i-1],
+**Formula for DP** >>
+## dp[i]=dp[i-1]+a[i],
 **Example:-**
 dp[3] = a[3] + dp[3–1] = a[3] + dp[2]= 3 + 9 =12 ….(which is same as equation…(3))
