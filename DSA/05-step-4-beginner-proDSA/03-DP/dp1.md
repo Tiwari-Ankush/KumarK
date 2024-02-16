@@ -21,10 +21,12 @@ Example:- Say I ask you to calculate :- (1+2+3+4+5) You do this:-
 
 **Analysis** : Running a loop for each query[O(N)] and finding the sum is a good idea but not very efficient as it takes O(N*Q) time.
 
+
 Let us create a **dp-array** of size ‘n’.
 -->dp[1]=sum of all numbers from (1,1)
 -->dp[2]=sum of all numbers from (1,2)…
 and so on.
+
 
 Say, a[5]={4,5,3,2,1}…**(assume 1-based-indexing here)** So, dp[1]=4(pretty easy)…..(1)
 dp[2]=4+5=9………(2)
