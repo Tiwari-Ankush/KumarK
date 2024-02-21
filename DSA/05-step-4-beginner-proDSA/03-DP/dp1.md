@@ -1,6 +1,8 @@
 Dynamic Programming:
 **To find solution to a problem, we _divide_ the problem into sub-problems, find answers to those sub-problems , combine them to get the original answer!**
 
+
+
 Example:- Say I ask you to calculate :- (1+2+3+4+5) You do this:-   
 1)Break it into sub-problems : (1+2)+(3+4)+(5)
 2) Find answers to those sub-problems: (3) + (7) + (5) 
@@ -10,6 +12,7 @@ Example:- Say I ask you to calculate :- (1+2+3+4+5) You do this:-
 
 ## KUMAR K personal trick for DP:
 -->dp[i] usually mean the best answer to the problem till the i’th index of the array.
+
 
 -->Obviously, final answer will be dp[n](where 'n' is the size of the array)
 
@@ -21,7 +24,7 @@ Example:- Say I ask you to calculate :- (1+2+3+4+5) You do this:-
 
 ## Problem-1 :
  We are given an array of integers(a[n]) . We are given multiple queries of the form : (1, i) which means we need to output the sum of all numbers from index- ‘1’ to index ‘i’ of the array.
- 
+
 
 **Analysis** : Running a loop for each query[O(N)] and finding the sum is a good idea but not very efficient as it takes O(N*Q) time.
 
