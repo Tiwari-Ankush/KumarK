@@ -1,0 +1,61 @@
+name: ANkush tiwari
+persuing bachelors degree in computer engineering 
+achievements-  certifications, obtained relevant certification like sql, showcasing commitment to continuous learning, teamwork during projects
+strengths = adaptability, quick learner, time management
+weakness = difficulty saying no, lack of experience in certain areas
+hobbies = travelling and photograpphy
+key skills = webdev, teamwork, attention to detail and continuous learning
+personal interest = coding projects, open source contributions
+
+
+company information: 
+Overview:
+PTC is a leading global provider of technology solutions that empower companies to digitally transform their businesses. The company specializes in offering innovative software and services to help organizations drive digital innovation and achieve operational excellence. PTC's solutions are particularly focused on enabling customers to leverage the Industrial Internet of Things (IIoT) to transform their physical products and processes into smart, connected systems.
+
+Products and Services:
+
+PTC offers a wide range of software products across various domains, including product lifecycle management (PLM), computer-aided design (CAD), Internet of Things (IoT) platforms, augmented reality (AR), and service lifecycle management (SLM).
+PTC's flagship products include Creo (CAD software), Windchill (PLM software), ThingWorx (IoT platform), Vuforia (AR platform), and Servigistics (SLM software).
+Vision:
+PTC's vision is centered around the concept that opportunities for industrial innovation reside at the intersection of the physical and digital worlds. The company is committed to helping its customers harness the power of digital transformation to drive innovation, improve operational efficiency, and create value in today's increasingly connected world.
+
+Mission:
+PTC's mission is to provide customers with cutting-edge technology solutions that enable them to transform their businesses, enhance product development processes, optimize operational performance, and deliver superior customer experiences.
+
+Core Values:
+
+Innovation: PTC is dedicated to fostering a culture of innovation, creativity, and continuous improvement.
+Integrity: The company is committed to upholding the highest standards of integrity, ethics, and transparency in all its business dealings.
+Customer Success: PTC prioritizes customer success and is dedicated to delivering solutions that meet the evolving needs and expectations of its customers.
+Collaboration: PTC values collaboration, teamwork, and partnership, both internally and externally, to achieve shared goals and objectives.
+
+
+Career Goals:
+Short-term Goals: To secure a position in a reputable company where I can apply and further develop my skills in web development and software engineering.
+Mid-term Goals: To gain hands-on experience and expertise in areas such as full-stack development, cloud computing, and data analytics, with the aim of contributing to innovative projects and driving digital transformation initiatives.
+Long-term Goals: To become a recognized expert in the field of technology, leveraging my knowledge and experience to lead impactful projects, mentor junior professionals, and contribute to the advancement of the industry.
+
+aspirations:
+innovation, impactful projects, global collaboration
+
+progression within the comapny=
+skill developement, continuous learning, increasing responsibility
+
+
+Challenging Situation: Disagreement over choice of technology stack (Node.js vs. Python with Flask) in a collaborative project.
+Your Role: Facilitator and key contributor to the project
+Actions You Took:
+Facilitated open discussions to understand preferences.
+Conducted research to gather relevant information.
+Encouraged constructive dialogue and sought consensus.
+Proposed alternative solutions and facilitated compromise.
+Implemented trial period using both technology stacks.
+Outcome: Trial period provided insights, informed decision-making, and strengthened team cohesion. Project progressed successfully with a shared vision.
+
+Strategies you use to manage stress:= identifying stress trigers, prioritized task, time management
+
+Explanation of how your skills, experience, and personality make you the best fit for the role: technical proficiency, teamworl and colllaboration, relevant field experience , prokject management, initiative, adaptability
+Relevant achievements and qualifications: project accomplishement, professional certifications
+
+
+what motivates you
