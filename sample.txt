@@ -22,8 +22,8 @@ PTC's vision is centered around the concept that opportunities for industrial in
 Mission:
 PTC's mission is to provide customers with cutting-edge technology solutions that enable them to transform their businesses, enhance product development processes, optimize operational performance, and deliver superior customer experiences.
 
-Core Values:
 
+Core Values:
 Innovation: PTC is dedicated to fostering a culture of innovation, creativity, and continuous improvement.
 Integrity: The company is committed to upholding the highest standards of integrity, ethics, and transparency in all its business dealings.
 Customer Success: PTC prioritizes customer success and is dedicated to delivering solutions that meet the evolving needs and expectations of its customers.
@@ -34,6 +34,7 @@ Career Goals:
 Short-term Goals: To secure a position in a reputable company where I can apply and further develop my skills in web development and software engineering.
 Mid-term Goals: To gain hands-on experience and expertise in areas such as full-stack development, cloud computing, and data analytics, with the aim of contributing to innovative projects and driving digital transformation initiatives.
 Long-term Goals: To become a recognized expert in the field of technology, leveraging my knowledge and experience to lead impactful projects, mentor junior professionals, and contribute to the advancement of the industry.
+
 
 aspirations:
 innovation, impactful projects, global collaboration
