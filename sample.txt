@@ -38,8 +38,10 @@ Long-term Goals: To become a recognized expert in the field of technology, lever
 aspirations:
 innovation, impactful projects, global collaboration
 
+
 progression within the comapny=
 skill developement, continuous learning, increasing responsibility
+
 
 
 Challenging Situation: Disagreement over choice of technology stack (Node.js vs. Python with Flask) in a collaborative project.
@@ -59,3 +61,6 @@ Relevant achievements and qualifications: project accomplishement, professional 
 
 
 what motivates you
+
+
+
