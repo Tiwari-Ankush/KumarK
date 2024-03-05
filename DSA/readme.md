@@ -11,6 +11,7 @@ for (type variable : array) {
 }
 ```
 
+
 Example:
 ```java
 int[] numbers = {1, 2, 3, 4, 5};
@@ -60,6 +61,7 @@ for (int i = 0; i < names.length; i++) {
 ```
 
 In this example, the traditional loop allows you to access the index `i` directly, which can be useful if you need to perform operations based on the index or iterate over a subset of the array.
+
 
 In summary, the enhanced for loop is more concise and readable, while the traditional for loop offers more control over the iteration process. The choice between them depends on the specific requirements of your code.
 
