@@ -30,6 +30,7 @@ Customer Success: PTC prioritizes customer success and is dedicated to deliverin
 Collaboration: PTC values collaboration, teamwork, and partnership, both internally and externally, to achieve shared goals and objectives.
 
 
+
 Career Goals:
 Short-term Goals: To secure a position in a reputable company where I can apply and further develop my skills in web development and software engineering.
 Mid-term Goals: To gain hands-on experience and expertise in areas such as full-stack development, cloud computing, and data analytics, with the aim of contributing to innovative projects and driving digital transformation initiatives.
@@ -42,8 +43,6 @@ innovation, impactful projects, global collaboration
 
 progression within the comapny=
 skill developement, continuous learning, increasing responsibility
-
-
 
 Challenging Situation: Disagreement over choice of technology stack (Node.js vs. Python with Flask) in a collaborative project.
 Your Role: Facilitator and key contributor to the project
