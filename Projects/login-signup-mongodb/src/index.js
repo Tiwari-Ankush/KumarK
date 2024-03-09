@@ -8,7 +8,7 @@ app.use(express.json())
 
 app.use(express.urlencoded({ extended: false }))
 
-const tempelatePath = path.join(__dirname, '../tempelates')
+const tempelatePath = path.join(__dirname, '../templates')
 const publicPath = path.join(__dirname, '../public')
 console.log(publicPath);
 

@@ -11,9 +11,9 @@
   "author": "Ankush Tiwari",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1",
+    "express": "^4.18.3",
     "hbs": "^4.2.0",
-    "mongoose": "^6.4.6",
+    "mongoose": "^6.12.7",
     "nodemon": "^2.0.19"
   }
 }
