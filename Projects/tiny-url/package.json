@@ -1,0 +1,14 @@
+{
+  "name": "tiny-url",
+  "version": "1.0.0",
+  "description": "tiny url mongodb project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "Ankush Tiwari",
+  "license": "ISC"
+}
