@@ -25,11 +25,11 @@ app.get('/', (req, res) => {
 app.post('/signup', async (req, res) => {
     try {
         const data = new LogInCollection({
-            name: req.body.name,
+            username: req.body.username.toLowerCase(),
             password: req.body.password
         });
         await data.save();
-        res.status(201).render("home", { naming: req.body.name });
+        res.status(201).render("home", { naming: req.body.username });
     } catch (error) {
         console.error(error);
         res.send("Error signing up");
@@ -38,9 +38,9 @@ app.post('/signup', async (req, res) => {
 
 app.post('/login', async (req, res) => {
     try {
-        const user = await LogInCollection.findOne({ name: req.body.name, password: req.body.password });
+        const user = await LogInCollection.findOne({ username: req.body.username.toLowerCase(), password: req.body.password });
         if (user) {
-            res.status(201).render("home", { naming: req.body.name });
+            res.status(201).render("home", { naming: req.body.username });
         } else {
             res.send("Incorrect username or password");
         }

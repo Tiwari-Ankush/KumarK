@@ -9,13 +9,18 @@
 </head>
 <body>
     <h1>Sign Up</h1>
-    <form action="/signup" method="post">
-        <input placeholder="Name" name="name" type="text">
+    <form action="/signup" method="post" >
+        <input placeholder="Username" name="username" id="username" type="text">
         <br>
         <input placeholder="Password" name="password" type="password">
         <br>
         <input class="sub" type="submit">
     </form>
     <a href="/">Go back to login page</a>
+    <script>
+        document.getElementById("username").addEventListener("change", function() {
+            this.value = this.value.toLowerCase();
+        });
+    </script>
 </body>
 </html>

@@ -9,8 +9,8 @@
 </head>
 <body>
     <h1>Login Form</h1>
-    <form action="/login" method="post">
-        <input placeholder="Name" name="name" type="text">
+     <form action="/login" method="post" >
+        <input placeholder="Username" name="username" id="username" type="text">
         <br>
         <input placeholder="Password" name="password" type="password">
         <br>
@@ -18,5 +18,10 @@
     </form>
     <h3>Don't have an account?</h3>
     <a href="/signup">Create a new account</a>
+    <script>
+        document.getElementById("username").addEventListener("change", function() {
+            this.value = this.value.toLowerCase();
+        });
+    </script>
 </body>
 </html>

@@ -10,7 +10,7 @@ mongoose.connect("mongodb://localhost:27017/LoginFormPractice", {
 });
 
 const logInSchema = new mongoose.Schema({
-    name: {
+    username: {
         type: String,
         required: true
     },
