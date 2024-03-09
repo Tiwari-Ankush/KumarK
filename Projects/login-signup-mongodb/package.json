@@ -1,14 +1,14 @@
 {
   "name": "login",
   "version": "1.0.0",
-  "description": "",
+  "description": "login signup for learning mongodb",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon src/app.js -e js,hbs"
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ankush Tiwari",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
