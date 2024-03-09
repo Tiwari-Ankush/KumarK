@@ -14,7 +14,6 @@
   "dependencies": {
     "express": "^4.18.3",
     "mongoose": "^8.2.1",
-    "nanoid": "^3.3.7",
-    "shortid": "^2.2.16"
+    "nanoid": "^3.3.7"
   }
 }
