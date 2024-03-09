@@ -11,7 +11,8 @@ connectToMongoDB('mongodb://localhost:27017/short-url').then(() =>
 console.log("mongodb conneccted")
 );
 
+app.use(express.json());
 
 app.use("/url",urlRoute);
 
-app.listen(PORT, () => console.log("Server is running at port ${PORT}"));
+app.listen(PORT, () => console.log('Server is running at port ${PORT}'));
