@@ -12,6 +12,7 @@ company information:
 Overview:
 PTC is a leading global provider of technology solutions that empower companies to digitally transform their businesses. The company specializes in offering innovative software and services to help organizations drive digital innovation and achieve operational excellence. PTC's solutions are particularly focused on enabling customers to leverage the Industrial Internet of Things (IIoT) to transform their physical products and processes into smart, connected systems.
 
+
 Products and Services:
 
 PTC offers a wide range of software products across various domains, including product lifecycle management (PLM), computer-aided design (CAD), Internet of Things (IoT) platforms, augmented reality (AR), and service lifecycle management (SLM).
